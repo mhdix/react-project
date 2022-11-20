@@ -1,0 +1,72 @@
+body,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: black;
+  background-color: rgb(243, 243, 243);
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 50px 100px;
+
+}
+
+li {
+  list-style-type: none;
+}
+
+
+
+button {
+  padding: 5px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: .2s cubic-bezier(0.215, 0.610, 0.355, 1);
+  font-weight: 600;
+  letter-spacing: 1px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12),
+    0 2px 2px rgba(0, 0, 0, 0.12),
+    0 4px 4px rgba(0, 0, 0, 0.12)
+}
+
+button:hover {
+  opacity: .9;
+  transform: scale(1.07);
+}
+
+button.add {
+  background-color: #497174;
+  color: #ffffff;
+  margin-left: 9px;
+  padding: 6px 18px;
+}
+
+button.complect-btn {
+  text-decoration: dotted;
+  opacity: .9;
+}
+
+button.delete {
+  background-color: #EB6440;
+}
+
+button.edit {
+  background-color: #FFFBC1;
+}
+
+input {
+  padding: 4px;
+  border-radius: 6px;
+
+}
